@@ -12,4 +12,47 @@ package frc.robot;
  * <p>It is advised to statically import this class (or one of its inner classes) wherever the
  * constants are needed, to reduce verbosity.
  */
-public final class Constants {}
+public final class Constants {
+    public static final class DriveConstants {
+        public static final int leftMasterPort = 0;
+        public static final int rightMasterPort = 1; 
+    }
+    // PWM
+    // Drive
+    
+
+    // // Arm
+    // public static int elevatorPort = 8;
+    // public static int slidePort = 9;
+
+    // // DIO
+
+
+    // // CAN
+
+
+
+    // // USB
+    // public static int joystickPort = 0;
+    // public static int rightStickX = 4;
+    // public static int leftStickY = 1;
+    // public static int buttonAPort = 1;
+    // public static int buttonBPort = 2;
+    // public static int buttonXPort = 3;
+    // public static int buttonYPort = 4;
+    // public static int buttonLBPort = 5;
+    // public static int buttonRBPort = 6;
+    // public static int buttonBackPort = 7;
+    // public static int buttonStartPort = 8;
+    // public static int buttonLeftStickDownPort = 9;
+    // public static int buttonRightStickDownPort = 10;
+
+
+
+    // // Other Drive Train Constants
+
+    // // EX: 
+    // public static int wheelDiameter = 6;
+    // public static double moveSpeedMultiplyer = 0.4;
+    // public static double turnSpeedMultiplyer = 0.4;
+}
