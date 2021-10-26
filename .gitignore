@@ -93,6 +93,9 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
+build/*
+gradle/*
+
 # Chutzpah Test files
 _Chutzpah*
 
