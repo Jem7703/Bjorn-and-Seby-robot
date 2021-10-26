@@ -66,7 +66,7 @@ public class RobotContainer {
 
     // Move the arm to neutral position when the 'B' button is pressed.
     new JoystickButton(m_driverController, 6)
-        .whenPressed(() -> m_shooterIntakeSubsystem.shootBall(-6.0))
+        .whenPressed(() -> m_shooterIntakeSubsystem.shootBall(-5.3))
         .whenReleased(() -> m_shooterIntakeSubsystem.shootBall(0));
 
     new JoystickButton(m_driverController, 2)
